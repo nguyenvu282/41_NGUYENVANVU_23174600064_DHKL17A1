@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<company>
+    <name>FPT Company</name>
+    <staff id="1">
+        <name>NGUYENVU</name>
+        <salary>8.5 LPA</salary>
+    </staff>
+    <staff id="2">
+        <name>THUYHANG</name>
+        <salary>6.5 LPA</salary>
+    </staff>
+    <staff id="3">
+        <name>XUANHUONG</name>
+        <salary>3.2 LPA</salary>
+    </staff>
+</company>
