@@ -25,12 +25,15 @@ print('chenh lệch  lớn nhất là\n',max_cl)
 #c
 print('ngày có nhiệt độ cao hơn 20 độ xê\n',np.where(nhietdo>20)[0]+1) # trả về 1 tuple(ptu duy nhất)[0] đc
 #sdung để lấy mảng chỉ số
-ngay_db = [5,10,15,20,25]
+ngay_db = [4,9,14,19,24]
 print('nhiệt độ của ngày 5,10,15,20,25\n',nhietdo[ngay_db])
 #Tìm nhiệt độ của các ngày có nhiệt độ trên trung bình
 for index,value in enumerate(nhietdo): #giúp bạn có cả chỉ số và giá trị của phần tử trong vòng lặp
     if value>nd_tb:
-        print(f'ngày{index+1}:{value}')
+        print(f'ngày{index+1}:{value}'
+              )
+      
+
 # Lấy nhiệt độ của các ngày chẵn/lẻ trong tháng.
 ngay_chan =[]
 ngay_le = []
